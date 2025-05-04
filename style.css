@@ -1,0 +1,29 @@
+.calculator {
+    width: 320px;
+    border-radius: 15px;
+  }
+  
+  #display {
+    height: 60px;
+    background-color: #f8f9fa;
+    border: 2px solid #ced4da;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  #display:focus {
+    background-color: #e2f0fb;
+    outline: none;
+  }
+  
+  button {
+    height: 50px;
+    font-size: 18px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
